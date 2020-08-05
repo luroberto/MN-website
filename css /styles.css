@@ -1,0 +1,964 @@
+
+/* icodo de menu  */
+@font-face {
+  font-family: 'icomoon';
+  src:  url('../fonts/icomoon.eot?tc7q2y');
+  src:  url('../fonts/icomoon.eot?tc7q2y#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?tc7q2y') format('truetype'),
+    url('../fonts/icomoon.woff?tc7q2y') format('woff'),
+    url('../fonts/icomoon.svg?tc7q2y#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  /* speak-as: never; */
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-menu:before {
+  content: "\e9bd";
+}
+
+
+
+
+body {
+  font-family: 'Avenir', 'Avenir Light';
+  margin: 0;
+  background-color: white;
+}
+
+.header {
+  /* background-color: white;
+  color: black;
+  display: flex;
+  height: 70px;
+  align-items: center;
+  font-size: 15px; */
+
+  position: fixed;
+	top:0;
+	width:100%;
+	height:70px;
+	z-index:1;
+  background-color:white;
+}
+
+ol, ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.header a {
+  color: black;
+  text-decoration: none;
+}
+/* .menu {
+  height: inherit; 
+} */
+
+.menu {
+  height: inherit; 
+  width: 1000px;
+}
+.header ol {
+  display: flex;
+  height: inherit;
+  
+}
+.header ol li {
+  height: inherit;
+  background-color: white;
+}
+.header ol li a:hover {
+  color: #F28241;
+ }
+.header a {
+  display: flex;
+  font-family: Avenir;
+  align-items: center;
+  height: inherit;
+  padding: 0 15px;
+  font-size: 14px;
+
+}
+.header ol ul {
+  display: none;
+  position: absolute;
+  height: 30px;
+  
+}
+
+/* menu desplegable  */
+
+.header ol ul li{
+  background-color: white;
+  padding-left: 10px;
+  width: 100%;
+}
+.header ol li:hover > ul {
+  display:block;
+ }
+.flexbox {
+  display: flex;
+  /* flex-wrap: nowrap; */
+  flex-wrap: wrap;
+  /* flex-direction: column; */
+}
+.container {
+  max-width: 100%;
+  height: inherit;
+  padding: 0 40%;
+}
+.burger-button{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: whitesmoke;
+  display: none;
+  line-height: 40px;
+  text-align: center;
+  position: fixed;
+  z-index: 4;
+  left: 5px;
+  top:5px;
+  color: black
+}
+
+/* FONDOS */
+
+.fondo_home{
+  background-image: url(../img/home/FONDO\ MN\ MAIN_16\ FINAL.jpg);
+  background-position: center 60px;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+/* FONDOS FIJOS */
+
+.fondo_home{
+  background-image: url(../img/home/FONDO\ MN\ MAIN_16\ FINAL.jpg);
+  background-position: center 60px;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  
+}
+.franja_bio{
+  height: 670px;
+  background-image: url(../img/bio/BIO_02.jpg);
+  background-size: 100%;
+  background-position: center 60px;
+  background-repeat: no-repeat;
+  justify-content: center;
+  display: flex;
+}
+.fondo_distinciones{
+  background-image: url(../img/distinciones/FONDO\ DISTINCIONES.jpg);
+  background-position: center 65px;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+.fondo_eyn{
+  background-image: url(../img/eyn/FONDO\ ENTREVISTAS\ Y\ NOTAS.jpg);
+  background-position: center 75px;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+.fondo_contacto{
+  background-image: url(../img/contacto/FONDO\ ENTREVISTAS\ Y\ NOTAS.jpg);
+  background-position: center 78px;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+.fondo_antologias{
+  background-image: url(../img/libros/ANTOLOGÍAS/FONDO/FONDO\ ANTOLOGÍAS.jpg);
+  background-position: center 70px;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+.fondo_objetos{
+  background-image: url(../img/libros/CRÓNICAS/FONDOS/FONDO\ CRÓNICAS.jpg);
+  background-position: center 46px;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+.fondo_ensayos{
+  background-image: url(../img/libros/ENSAYOS/FONDOS/FONDO\ ENSAYOS.jpg);
+  background-position: center 9px;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+.fondo_novelas{
+  background-image: url(../img/libros/NOVELAS/FONDO/FONDO\ NOVELAS.jpg);
+  background-position: center 75px;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+.fondo_poesia{
+  background-image: url(../img/libros/POESÍA/FONDO/FONDO\ POESÍA.jpg);
+  background-position: center 20px;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+.fondo_prologos{
+  background-image: url(../img/libros/PRÓLOGOS/FONDOS/FONDO\ CARPETA\ MAPA_02.2.jpg);
+  background-position: center 10px;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+.fondo_traducciones{
+  background-image: url(../img/libros/TRADUCCIONES/FONDO/FONDO\ TRADUCCIONES.jpg);
+  background-position: center 60px;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+/* FRANJAS */
+
+
+.franja_distinciones{
+  height: auto;
+  background-image: url(../img/distinciones/FRANJA\ DISTINCIONES_V02.jpg);
+  background-size: 100%;
+  background-position: center 150px;
+  background-repeat: no-repeat;
+  justify-content: center;
+  display: flex;
+ 
+ }
+ .franja_eyn{
+  height: auto;
+  background-image: url(../img/eyn/FRANJA\ entrevistas\ y\ notas_V02.jpg);
+  background-size: 100%;
+  background-position: center 160px;
+  background-repeat: no-repeat;
+  justify-content: center;
+  display: flex;
+ 
+ }
+ .franja_contacto{
+  height: auto;
+  background-image: url(../img/FRANJAS_NUEVAS_CON_SIGNOS_CORRIDOS/FRANJA\ CONTACTO_V01.png);
+  background-size: 100%;
+  background-position: center 160px;
+  background-repeat: no-repeat;
+  justify-content: center;
+  display: flex;
+ 
+ }
+
+ /* franjas books */
+
+ .franja_antologias{
+  height: auto;
+  background-image: url(../img/FRANJAS_NUEVAS_CON_SIGNOS_CORRIDOS/FRANJA\ ANTOLOGÍAS_V02.png);
+  background-size: 120%;
+  background-position: center 155px;
+  background-repeat: no-repeat;
+  justify-content: center;
+  display: flex;
+ 
+ }
+ .franja_objetos{
+  height: auto;
+  background-image: url(../img/FRANJAS_NUEVAS_CON_SIGNOS_CORRIDOS/FRANJA\ LIBROS\ OBJETOS_V02.png);
+  background-size: 100%;
+  background-position: center 145px;
+  background-repeat: no-repeat;
+  justify-content: center;
+  display: flex;
+ 
+ }
+ .franja_ensayos{
+  height: auto;
+  background-image: url(../img/libros/ENSAYOS/FONDOS/FRANJA\ ENSAYOS_V04.jpg);
+  background-size: 115%;
+  background-position: center 150px;
+  background-repeat: no-repeat;
+  justify-content: center;
+  display: flex;
+ 
+ }
+ .franja_novelas{
+  height: auto;
+  background-image: url(../img/libros/NOVELAS/FONDO/FRANJA\ NOVELAS_V02.jpg);
+  background-size: 100%;
+  background-position: center 150px;
+  background-repeat: no-repeat;
+  justify-content: center;
+  display: flex;
+  /* correccion display antes no estaba  */
+ 
+ }
+ .franja_poesia{
+  height: auto;
+  background-image: url(../img/FRANJAS_NUEVAS_CON_SIGNOS_CORRIDOS/FRANJA\ POESÍA_V04.png);
+  background-size: 110%;
+  background-position: center 150px;
+  background-repeat: no-repeat;
+  justify-content: center;
+  display: flex;
+ 
+ }
+ .franja_prologos{
+  height: auto;
+  background-image: url(../img/FRANJAS_NUEVAS_CON_SIGNOS_CORRIDOS/FRANJA\ PROLOGOS_V01.png);
+  background-size: 100%;
+  background-position: center 160px;
+  background-repeat: no-repeat;
+  justify-content: center;
+  display: flex;
+ 
+ }
+ .franja_traducciones{
+  height: auto;
+  background-image: url(../img/FRANJAS_NUEVAS_CON_SIGNOS_CORRIDOS/FRANJA\ TRADUCCIONES_V02.png);
+  background-size: 100%;
+  background-position: center 155px;
+  background-repeat: no-repeat;
+  justify-content: center;
+  display: flex;
+ 
+ }
+
+/* SECCION LIBROS  */
+
+
+ .block {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  /* background-color: DodgerBlue; */
+  flex-wrap: wrap;
+  margin-top: 370px;
+  margin-left: 90px;
+  width: 900px;
+  align-content: flex-start;
+}
+
+.block > div {
+  display: flex;
+  /* background-color: #f1f1f1; */
+  /* border: 1px solid red; */
+  margin: 10px;
+  margin-top: 0px;
+  width: 900px;
+  height: max-content;
+  position: relative;
+}
+#dist{
+  margin-top: 120px;
+}
+.block div div {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  /* border: 1px solid black; */
+  width: 50%;
+  align-items: center;
+  margin: 30px;
+  margin-top:0px ;
+  align-items: flex-start;
+}
+
+.tapa{
+  display: flex;
+  flex-basis: 200px;
+  margin-top: 0;
+  align-self: flex-start;
+  
+}
+#puntitos{
+  font-size:15px ;
+  font-family: Avenir;
+  color: rgba(0,0,0,.7)
+}
+
+#image{
+  margin-top: 7px;
+  /* width: 210px;
+  height: 322px; */
+}
+
+.desc{
+  display: flex;
+  align-self: baseline;
+  flex-basis: 498px;
+}
+.fl{
+  display: flex;
+  flex-basis: 531px;
+}
+.fr{
+  display: flex;
+  flex-basis: 531px;
+}
+.piedefoto{
+  font-family: avenir light;
+  font-size: 13px;
+  font-weight: bold;
+  font-style: italic;
+  text-align: left;
+  margin-left: 2px;
+}
+
+.titlebook{
+  font-family: Avenir;
+  font-size: 33px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  margin-top: 0;
+  
+}
+.description{
+  /* font-family: Avenir Light; */
+  font-family: Avenir;
+  line-height: 1.2em;
+  font-size: 14px;
+  letter-spacing: 0.1px;
+  word-spacing: 2pt;
+  text-align: justify;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.firma{
+  margin: 0;
+  font-family: Avenir;
+  line-height: 1.2em;
+  font-size: 14px;
+  letter-spacing: 1px;
+  margin-top: 15px;
+}
+
+.frj1{
+  width: 80%;
+  align-self: center;
+  
+}
+
+.frj2{
+  width: 50px;
+  align-self: center;
+  margin-left: 200px;
+}
+.frj3{
+  width: 50px;
+  align-self: center;
+  margin-left: 190px;
+}
+.frj4{
+  width: 50px;
+  align-self: center;
+  margin-left: 410px;
+}
+
+/* CONTENDIO BIOGRAFIA */
+
+.blockbio{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  margin-top: 280px;
+  margin-left: 30px;
+  width: 800px;
+  align-content: flex-start;
+}
+
+.blockbio div{
+  display: flex;
+  justify-content: space-between;
+  margin: 10px;
+  margin-top: 0px;
+  width: 900px;
+  height: max-content;
+  position: relative;
+}
+
+.blockbio div div{
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  width: 70%;
+  height: auto;
+  align-items: center;
+  margin: 10px;
+  margin-top:0px ;
+}
+
+.fotobio{
+  display: flex;
+  flex-basis: 200px;
+}
+
+.descbio{
+  font-family: avenir light;
+  font-size: 14px;
+  font-weight: bold;
+  text-align: justify;
+  word-spacing: 2pt;
+  letter-spacing: 0.5px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+
+/* CONTENIDO DISTINCIONES */
+
+.blockdist{
+  display: flex;
+  justify-content: center;
+  margin-top: 270px;
+  margin-left: 30px;
+  width: 700px;  
+}
+.blockdist div{
+  display: flex;
+  margin: 30px;
+  width: auto;
+}
+.blockdist li{
+  font-weight: bold;
+  font-family: avenir light;
+  letter-spacing: 1.5px;
+  font-size: 14px;
+  line-height: 25px;
+
+}
+
+/* CONTENIDO ENTREVISTAS Y NOTAS */
+
+.blockeyn{
+  display: flex;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  margin-top: 350px;
+  margin-left: 150px;
+  width: 720px;
+  align-content: flex-start;
+}
+.blockeyn div{
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  width: 80%;
+  align-items: center;
+  margin: 30px;
+  margin-top:0px ;
+}
+.blockeyn #small{
+  width: 40%;
+  /* border: 1px solid red; */
+  align-self: flex-start;
+}
+.blockeyn #small2{
+  width: 70%;
+  /* border: 1px solid red; */
+  align-self: flex-start;
+}
+.blockeyn h3{
+  font-family: avenir;
+  font-size: 32px;
+  margin-top: 0;
+  margin-bottom: 0px;
+}
+.blockeyn a{
+  font-size:15px;
+  font-weight: bold;
+  font-family:avenir light;
+  line-height: 20px;
+  color: #008AFC;
+  font-style: italic;
+
+}
+
+
+/* SECCION CONTACTO */
+
+.blockcont{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 500px;
+  justify-content: center;
+  font-family: avenir light;
+  margin-top: 370px;
+  margin-left:  0px;
+}
+.blockcont div{
+  display: flex;
+  border: 1px dolid black;
+  margin: 20px;
+  justify-content: center;
+  width: 100%;
+  font-family: avenir light;
+}
+input[type='text'], textarea{
+  outline: none;
+  background: none;
+  border: none;
+border-bottom: solid 2px black;
+  color: black;
+}
+
+textarea {
+line-height: 150%;
+height: 150px;
+resize: none;
+width: 100%;
+}
+
+#nombre{
+  color:orange;
+  font-size: 15px;
+  width: 100%;
+  font-family: avenir light;
+}
+#mail{
+  color:orange;
+  font-size: 15px;
+  width: 100%;
+  font-family: avenir light;
+}
+#telefono{
+  color:orange;
+  font-size: 15px;
+  width: 100%;
+  font-family: avenir light;
+}
+#mensaje{
+  color:orange;
+  font-size: 15px;
+  width: 100%;
+  font-family: avenir light;
+}
+#boton{
+  border: solid 1px black;
+  border-radius: 5%;
+  color: white;
+  font-family: avenir;
+  outline: none;
+  padding: 10px 25px;
+  background-color: black;
+}
+
+/* RESPONSIVE */
+
+
+@media screen and (max-width: 1023px){
+  .container {
+    max-width: 100%;
+    height: inherit;
+    padding: 0 180px;
+  }
+  .franja_distinciones, .franja_eyn, .franja_contacto{
+    background-position: center 140px;
+  }
+  .blockdist{
+    margin-left: 80px;
+  }
+  .blockeyn{
+  margin-top: 300px;
+  margin-left: 180px;
+  }
+  .blockcont{
+    margin-top: 300px;
+  }
+  .franja_poesia{
+    height: auto;
+    background-image: url(../img/FRANJAS_NUEVAS_CON_SIGNOS_CORRIDOS/FRANJA\ POESÍA_V04.png);
+    background-size: cover;
+    background-position: center 140px;
+  }
+  .franja_traducciones{
+    height: auto;
+    background-image: url(../img/FRANJAS_NUEVAS_CON_SIGNOS_CORRIDOS/FRANJA\ TRADUCCIONES_V02.png);
+    background-size: cover;
+    background-position: center 160px;
+}
+
+}
+
+@media screen and (max-width: 767px){
+  .header{
+    display: block;
+    height: auto;
+  }
+  .header ol {
+    display: initial;
+  }
+  .header ol li{
+    height: 30px;
+  }
+  .header a {
+    justify-content: center;
+    font-size: 18px;
+  }
+  .header ol li {
+    background-color:rgba(255,255,255,.0001);
+  }
+
+  .header ol ul {
+    width: 160px;
+  }
+
+  .burger-button{
+    display: block;
+  }
+  .menu{
+    position: fixed;
+    background-color:rgba(255,255,255,1);
+    z-index: 3;
+    top:0;
+    left: -100vw;
+    width: 100vw;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: .3s;
+  }
+  .menu.is-active{
+    left:0;
+  }
+
+  .fondo_home, .fondo_distinciones, .fondo_contacto, .fondo_eyn, .fondo_antologias, .fondo_ensayos, .fondo_novelas, .fondo_objetos, .fondo_poesia, .fondo_prologos, .fondo_traducciones{
+    background-position: center 0px;
+  }
+
+  .franja_bio{
+    background-position: 30%;
+    background-image: url(../img/FRANJAS_NUEVAS_CON_SIGNOS_CORRIDOS/BIO_02_SIN\ SIGNOS.png);
+    background-size: cover;
+    height: auto;
+   
+    
+  }
+  .franja_distinciones{
+  /* height: 3000px; */
+  /* background-image: url(../img/distinciones/FRANJA\ DISTINCIONES_V02.jpg); */
+  height: auto;
+  background-image: url(../img/grafica_separada/FONDOS_SIN_SIGNOS/FRANJA\ DISTINCIONES_corta.png);
+  background-size: cover;
+  background-position: center 60px;
+  background-repeat: no-repeat;
+  }
+
+  .franja_contacto{
+  height:  auto;
+  background-image: url(../img/grafica_separada/FONDOS_SIN_SIGNOS/FRANJA\ CONTACTO_V02.jpg);
+  background-size: cover;
+  background-position: center 60px;
+  background-repeat: no-repeat;
+  }
+
+  .franja_eyn{
+  /* height: 2000px; */
+  height: auto;
+  background-image: url(../img/grafica_separada/FONDOS_SIN_SIGNOS/FRANJA_entrevistas_y_notas_larga.jpg);
+  background-size: cover;
+  background-position: center 60px;
+  background-repeat: no-repeat;
+  }
+
+  .franja_ensayos{
+    /* height: 4000px; */
+    min-height: 7000px;
+    background-size: cover;
+    background-position: center 90px;
+    /* background-repeat: no-repeat;  */
+  }
+.franja_prologos{
+  height: auto;
+  background-image: url(../img/grafica_separada/FONDOS_SIN_SIGNOS/FRANJA\ PROLOGOS_V01_corta.png);
+  background-size: cover;
+  background-position: center 90px;
+}
+.franja_antologias{
+  height: auto;
+  background-image: url(../img/grafica_separada/FONDOS_SIN_SIGNOS/FRANJA\ ANTOLOGÍAS_V02\ copy.jpg);
+  background-size: cover;
+  background-position: center 90px;
+}
+.franja_poesia{
+  height: auto;
+  background-image: url(../img/grafica_separada/FONDOS_SIN_SIGNOS/FRANJA\ POESÍA_larga.jpg);
+  background-size: cover;
+  background-position: center 90px;
+}
+.franja_novelas{
+    /* height: 3000px; */
+    height: auto;
+    background-size: cover;
+    background-position: center 70px;
+}
+ .franja_objetos{
+    /* height: 2000px; */
+    height: auto;
+    background-image: url(../img/grafica_separada/FONDOS_SIN_SIGNOS/LIBROS\ OBJETOS.jpg);
+    background-size: cover;
+    background-position: center 70px;
+} 
+.franja_traducciones{
+    height: auto;
+    background-image: url(../img/grafica_separada/FONDOS_SIN_SIGNOS/FRANJA\ TRADUCCIONES_V03_larga.jpg);
+    background-size: cover;
+    background-position: center 90px;
+}
+
+/* FLEX DE LOS CONTENEDORES DE LA SECCION LIBROS */
+.block{
+  /* background-color: red; */
+  width: 500px;
+  margin-top: 250px;
+  margin-left: 0px;
+}
+.block > div{
+  flex-wrap: wrap-reverse;
+  justify-content: center;
+}
+
+.block div div{
+  justify-content: center;
+}
+.frj1, .frj2, .frj3, .frj4{
+  display: none;
+  width: 10%;
+  align-self: auto;
+}
+
+.blockbio{
+  width: 500px;
+  margin-top: 200px;
+  margin-left: 0px;
+}
+.blockbio div{
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.blockbio div div {
+  justify-content: center;
+}
+
+.blockdist{
+  width: 500px;
+  margin-top: 150px;
+  margin-left: 10px;
+}
+
+.blockeyn{
+  margin-top:180px ;
+  margin-left: 20px;
+}
+.blockeyn h3{
+  font-family: avenir;
+  font-size: 25px;
+  margin-top: 0;
+  margin-bottom: 0px;
+}
+.blockcont{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 400px;
+  justify-content: center;
+  font-family: avenir light;
+  margin-top: 200px;
+  margin-left:  0px;
+}
+
+}
+
+@media screen and (max-width: 480px){
+
+  /* FLEX DE LOS CONTENEDORES DE LA SECCION LIBROS */
+
+  .block{
+    /* background-color: red; */
+    width: 400px;
+    margin-top: 170px;
+    margin-left: 0px;
+  }
+  .block > div{
+    flex-wrap: wrap-reverse;
+    justify-content: center;
+  }
+  .blockdist{
+    width: 450px;
+    margin-top: 120px;
+    margin-left: 0px;
+  }
+  .fondo_home{
+    background-position: center 0px;
+    background-size: 200%;
+  }
+  .franja_traducciones{
+    background-position: center 60px;
+  }
+}
+
+@media screen and (max-width: 320px){
+
+  /* FLEX DE LOS CONTENEDORES DE LA SECCION LIBROS */
+
+  .block{
+    /* background-color: red; */
+    width: 300px;
+    margin-top: 190px;
+    margin-left: 0px;
+  }
+  .block > div{
+    flex-wrap: wrap-reverse;
+    justify-content: center;
+  }
+  .blockdist{
+    width: 300px;
+    margin-top: 100px;
+    margin-left: 0px;
+  }
+  .blockbio{
+    margin-left: 80px;
+  }
+  .blockcont{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 300px;
+    justify-content: center;
+    font-family: avenir light;
+    margin-top: 200px;
+    margin-left:  0px;
+  }
+  .fondo_home{
+    background-position: center 0px;
+    background-size: 235%;
+    
+  }
+}

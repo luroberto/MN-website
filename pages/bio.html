@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <title>marianegroni</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Fjalla+One|Source+Sans+Pro" rel="stylesheet">
+    <link rel="stylesheet" href="../css /styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  </head>
+
+  <body class="franja_bio">
+    <i class="icon-menu burger-button" id="burger-menu"></i>
+    <header class="header">
+      <div class="container">
+        <nav class="menu" is-active>
+          <ol>
+            <li><a href="../index.html"class="current">home</a></li>
+            <li><a href="../pages/bio.html">bio</a></li>
+            <li><a href="#">libros</a>
+                <ul>
+                    <li><a href="../pages/pbooks/poesia.html">poesía</a></li>
+                    <li><a href="../pages/pbooks/novelas.html">novelas</a></li>
+                    <li><a href="../pages/pbooks/ensayos.html">ensayos</a></li>
+                    <li><a href="../pages/pbooks/objetos.html">libros/objetos</a></li>
+                    <li><a href="../pages/pbooks/traducciones.html">traducciones</a></li>
+                    <li><a href="../pages/pbooks/antologias.html">antologías</a></li>
+                    <li><a href="../pages/pbooks/prologos.html">prólogos</a></li>
+                </ul>
+            </li>
+            <li><a href="./distinciones.html">distinciones</a></li>
+            <li><a href="./entrevistasynotas.html">entrevistas y notas</a></li>
+            <li><a href="./contacto.html">contacto</a></li>
+            <li><a href="https://www.facebook.com/maria.negroni.925" target="_blank">
+                <i class="fa fa-facebook"></i>
+               </a></li>
+            <li><a href="https://www.instagram.com/marianegroni1" target="_blank">
+                <i class="fa fa-instagram"></i>
+               </a></li>
+            <li><a href="https://twitter.com/marianegroni2" target="_blank">
+                <i class="fa fa-twitter"></i>
+               </a></li>
+
+          </ol>
+        </nav>
+      </div>
+    </header>
+
+      <div class="blockbio" >
+          <div>
+            <div class="fotobio" >
+              <img src="../img/bio/IMG_3403.jpeg" width="200px" alt="Imagen biografía Maria Negroni">
+            </div>
+            <div class="descbio" >
+              <p>María Negroni publicó numerosos libros, entre otros: Arte y Fuga, Cantar la nada, Elegía Joseph Cornell, Interludio en Berlín, Exilium, Objeto Satie y Archivo Dickinson (poesía); Ciudad Gótica, Museo Negro, El testigo lúcido, Galería Fantástica, Pequeño Mundo Ilustrado y El arte del error (ensayo); El sueño de Úrsula y La Anunciación (ficción).
+                Beca Guggenheim en poesía y Premio Internacional de Ensayo Siglo XXI, su obra ha sido traducida al inglés, francés, italiano, sueco y portugués.
+                Islandia (primera edición Monte Ávila Editores, 1994) recibió, por su versión en inglés (Station Hil Press, 2001), el Premio al Mejor Libro de Poesía en Traducción del año del PEN American Center (Nueva York, 2002).</p>
+            </div>
+          </div>
+      </div>
+
+    <script>
+      const menu = document.querySelector('.menu');
+      console.log(menu);
+      const burgerButton = document.querySelector('#burger-menu');
+      console.log (burgerButton);
+
+      burgerButton.addEventListener ('click', showHide);
+
+      function showHide(){
+          if (menu.classList.contains('is-active')){
+            menu.classList.remove('is-active');
+          } else {
+            menu.classList.add('is-active');
+          }
+      }
+     </script>
+  </body>
+</html>

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <title>marianegroni</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Fjalla+One|Source+Sans+Pro" rel="stylesheet">
+    <link rel="stylesheet" href="../css /styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  </head>
+
+  <body class="fondo_distinciones">
+    <i class="icon-menu burger-button" id="burger-menu"></i>
+    <header class="header">
+      <div class="container">
+        <nav class="menu" is-active>
+          <ol>
+            <li><a href="../index.html"class="current">home</a></li>
+            <li><a href="../pages/bio.html">bio</a></li>
+            <li><a href="#">libros</a>
+                <ul>
+                    <li><a href="../pages/pbooks/poesia.html">poesía</a></li>
+                    <li><a href="../pages/pbooks/novelas.html">novelas</a></li>
+                    <li><a href="../pages/pbooks/ensayos.html">ensayos</a></li>
+                    <li><a href="../pages/pbooks/objetos.html">libros/objetos</a></li>
+                    <li><a href="../pages/pbooks/traducciones.html">traducciones</a></li>
+                    <li><a href="../pages/pbooks/antologias.html">antologías</a></li>
+                    <li><a href="../pages/pbooks/prologos.html">prólogos</a></li>
+                </ul>
+            </li>
+            <li><a href="./distinciones.html">distinciones</a></li>
+            <li><a href="./entrevistasynotas.html">entrevistas y notas</a></li>
+            <li><a href="./contacto.html">contacto</a></li>
+            <li><a href="https://www.facebook.com/maria.negroni.925" target="_blank">
+                <i class="fa fa-facebook"></i>
+               </a></li>
+            <li><a href="https://www.instagram.com/marianegroni1" target="_blank">
+                <i class="fa fa-instagram"></i>
+               </a></li>
+            <li><a href="https://twitter.com/marianegroni2" target="_blank">
+                <i class="fa fa-twitter"></i>
+               </a></li>
+
+          </ol>
+        </nav>
+      </div>
+    </header>
+
+    <section class= "franja_distinciones">
+
+      <div  class="blockdist" >
+        <div>
+          <ul style="list-style-type:disc">
+            <li>Fundación Bogliasco, Génova 2020</li>
+            <li>Directora del Fondo Nacional de las Artes 2019-2020</li>
+            <li>Cité Internacionale Des Arts. París, 2018.</li>
+            <li>Fondo Nacional de las Artes. Argentina, 2016.</li>
+            <li>Premio KONEX de Platino en Poesía, 2014.</li>
+            <li>Primer Premio Internacional de Ensayo Siglo XXI. México, 2009.</li>
+            <li>Writers Residence American Academy in Rome. Roma, 2008.</li>
+            <li>Civitella Ranieri Foundation, Umbria. Italia, 2007.</li>
+            <li>New York Foundation for the Arts. Nueva York, 2005.</li>
+            <li>Fundación Octavio Paz. México, 2001-2002.</li>
+            <li>The Pen Award for Islandia. New York 2002.</li>
+            <li>The Lockert Poetry in Translation Prize por 'El viaje de la noche'/ Night<br>
+              Journey. Princeton University, 2002.</li>
+            <li>Rockefeller Foundation's Bellagio Center. Bellagio, Italia 1998.</li>
+            <li>Premio de la Secretaría de Cultura de la Nación por Ciudad<br>
+                Gótica.Argentina, 1998</li>
+            <li>Segundo Premio Planeta por su novela 'El sueño de Úrsula'. Buenos Aires,<br>
+                1997.</li>
+            <li>Premio de la Secretaría de Cultura de la Nación por su libro 'El viaje de la<br>
+              noche'. Argentina, 1997.</li>
+            <li>John Simon Guggenheim Foundation Fellowship en poesía, 1994.</li>
+          </ul>
+        </div>
+      </div>
+
+    </section>
+    <script>
+      const menu = document.querySelector('.menu');
+      console.log(menu);
+      const burgerButton = document.querySelector('#burger-menu');
+      console.log (burgerButton);
+
+      burgerButton.addEventListener ('click', showHide);
+
+      function showHide(){
+          if (menu.classList.contains('is-active')){
+            menu.classList.remove('is-active');
+          } else {
+            menu.classList.add('is-active');
+          }
+      }
+     </script>
+  </body>
+</html>
