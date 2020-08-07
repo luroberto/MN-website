@@ -196,7 +196,7 @@ ol, ul {
   background-size: cover;
 }
 .fondo_objetos{
-  background-image: url(../img/libros/CRÓNICAS/FONDOS/FONDO\ CRÓNICAS.jpg);
+  background-image: url(../img/libros/OBJETOS/FONDOS/FONDO_OBJETOS.jpg);
   background-position: center 46px;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -286,7 +286,7 @@ ol, ul {
  }
  .franja_objetos{
   height: auto;
-  background-image: url(../img/FRANJAS_NUEVAS_CON_SIGNOS_CORRIDOS/FRANJA\ LIBROS\ OBJETOS_V02.png);
+  background-image: url(../img/FRANJAS_NUEVAS_CON_SIGNOS_CORRIDOS/FRANJA_LIBROS_OBJETOS_V02.png);
   background-size: 100%;
   background-position: center 145px;
   background-repeat: no-repeat;
@@ -822,7 +822,7 @@ width: 100%;
  .franja_objetos{
     /* height: 2000px; */
     height: auto;
-    background-image: url(../img/grafica_separada/FONDOS_SIN_SIGNOS/LIBROS\ OBJETOS.jpg);
+    background-image: url(../img/grafica_separada/FONDOS_SIN_SIGNOS/LIBROS_OBJETOS.jpg);
     background-size: cover;
     background-position: center 70px;
 } 
