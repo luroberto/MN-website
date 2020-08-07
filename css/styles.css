@@ -224,7 +224,7 @@ ol, ul {
   background-size: cover;
 }
 .fondo_prologos{
-  background-image: url(../img/libros/PRÓLOGOS/FONDOS/FONDO\ CARPETA\ MAPA_02.2.jpg);
+  background-image: url(../img/libros/PROLOGOS/FONDOS/FONDO_CARPETA_MAPA_02.2.jpg);
   background-position: center 10px;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -327,7 +327,7 @@ ol, ul {
  }
  .franja_prologos{
   height: auto;
-  background-image: url(../img/FRANJAS_NUEVAS_CON_SIGNOS_CORRIDOS/FRANJA\ PROLOGOS_V01.png);
+  background-image: url(../img/FRANJAS_NUEVAS_CON_SIGNOS_CORRIDOS/FRANJA_PROLOGOS_V01.png);
   background-size: 100%;
   background-position: center 160px;
   background-repeat: no-repeat;
@@ -797,7 +797,7 @@ width: 100%;
   }
 .franja_prologos{
   height: auto;
-  background-image: url(../img/grafica_separada/FONDOS_SIN_SIGNOS/FRANJA\ PROLOGOS_V01_corta.png);
+  background-image: url(../img/grafica_separada/FONDOS_SIN_SIGNOS/FRANJA_PROLOGOS_V01_corta.png);
   background-size: cover;
   background-position: center 90px;
 }
