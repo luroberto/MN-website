@@ -217,7 +217,7 @@ ol, ul {
   background-size: cover;
 }
 .fondo_poesia{
-  background-image: url(../img/libros/POESÍA/FONDO/FONDO\ POESÍA.jpg);
+  background-image: url(../img/libros/POESIA/FONDO/FONDO_POESIA.jpg);
   background-position: center 20px;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -317,7 +317,7 @@ ol, ul {
  }
  .franja_poesia{
   height: auto;
-  background-image: url(../img/FRANJAS_NUEVAS_CON_SIGNOS_CORRIDOS/FRANJA\ POESÍA_V04.png);
+  background-image: url(../img/FRANJAS_NUEVAS_CON_SIGNOS_CORRIDOS/FRANJA_POESIA_V04.png);
   background-size: 110%;
   background-position: center 150px;
   background-repeat: no-repeat;
@@ -693,7 +693,7 @@ width: 100%;
   }
   .franja_poesia{
     height: auto;
-    background-image: url(../img/FRANJAS_NUEVAS_CON_SIGNOS_CORRIDOS/FRANJA\ POESÍA_V04.png);
+    background-image: url(../img/FRANJAS_NUEVAS_CON_SIGNOS_CORRIDOS/FRANJA_POESIA_V04.png);
     background-size: cover;
     background-position: center 140px;
   }
@@ -809,7 +809,7 @@ width: 100%;
 }
 .franja_poesia{
   height: auto;
-  background-image: url(../img/grafica_separada/FONDOS_SIN_SIGNOS/FRANJA\ POESÍA_larga.jpg);
+  background-image: url(../img/grafica_separada/FONDOS_SIN_SIGNOS/FRANJA_POESIA_larga.jpg);
   background-size: cover;
   background-position: center 90px;
 }
