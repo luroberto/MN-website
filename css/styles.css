@@ -189,7 +189,7 @@ ol, ul {
   background-size: cover;
 }
 .fondo_antologias{
-  background-image: url(../img/libros/ANTOLOGÍAS/FONDO/FONDO\ ANTOLOGÍAS.jpg);
+  background-image: url(../img/libros/ANTOLOGIAS/FONDO/FONDO_ANTOLOGIAS.jpg);
   background-position: center 70px;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -276,7 +276,7 @@ ol, ul {
 
  .franja_antologias{
   height: auto;
-  background-image: url(../img/FRANJAS_NUEVAS_CON_SIGNOS_CORRIDOS/FRANJA\ ANTOLOGÍAS_V02.png);
+  background-image: url(../img/FRANJAS_NUEVAS_CON_SIGNOS_CORRIDOS/FRANJA_ANTOLOGIAS_V02.png);
   background-size: 120%;
   background-position: center 155px;
   background-repeat: no-repeat;
@@ -803,7 +803,7 @@ width: 100%;
 }
 .franja_antologias{
   height: auto;
-  background-image: url(../img/grafica_separada/FONDOS_SIN_SIGNOS/FRANJA\ ANTOLOGÍAS_V02\ copy.jpg);
+  background-image: url(../img/grafica_separada/FONDOS_SIN_SIGNOS/FRANJA_ANTOLOGIAS_V02_copy.jpg);
   background-size: cover;
   background-position: center 90px;
 }
