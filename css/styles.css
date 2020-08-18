@@ -337,7 +337,7 @@ ol, ul {
  }
  .franja_traducciones{
   height: auto;
-  background-image: url(../img/FRANJAS_NUEVAS_CON_SIGNOS_CORRIDOS/FRANJA\ TRADUCCIONES_V02.png);
+  background-image: url(../img/libros/TRADUCCIONES/FONDO/FRANJA_TRADUCCIONES_corregida_V03.png);
   background-size: 100%;
   background-position: center 155px;
   background-repeat: no-repeat;
@@ -699,7 +699,7 @@ width: 100%;
   }
   .franja_traducciones{
     height: auto;
-    background-image: url(../img/FRANJAS_NUEVAS_CON_SIGNOS_CORRIDOS/FRANJA\ TRADUCCIONES_V02.png);
+    background-image: url(../img/libros/TRADUCCIONES/FONDO/FRANJA_TRADUCCIONES_corregida_V03.png);
     background-size: cover;
     background-position: center 160px;
 }
@@ -828,7 +828,7 @@ width: 100%;
 } 
 .franja_traducciones{
     height: auto;
-    background-image: url(../img/grafica_separada/FONDOS_SIN_SIGNOS/FRANJA\ TRADUCCIONES_V03_larga.jpg);
+    background-image: url(../img/libros/TRADUCCIONES/FONDO/FRANJA_TRADUCCIONES_corregida_sin_signos_V03.png);
     background-size: cover;
     background-position: center 90px;
 }
