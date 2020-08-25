@@ -916,8 +916,9 @@ width: 100%;
     margin-left: 0px;
   }
   .fondo_home{
+    background-image: url(../img/home/HOME_V01.png);
     background-position: center 0px;
-    background-size: 200%;
+    background-size: cover; 
   }
   .franja_traducciones{
     background-position: center 60px;
@@ -928,11 +929,7 @@ width: 100%;
 
   /* FLEX DE LOS CONTENEDORES DE LA SECCION LIBROS */
 
-  .fondo_home{
-    background-image: url(../img/home/HOME_V01.png);
-    background-position: center 0px;
-    background-size: cover; 
-  }
+ 
 
   .block{
     /* background-color: red; */
@@ -961,6 +958,10 @@ width: 100%;
     font-family: avenir light;
     margin-top: 200px;
     margin-left:  0px;
+  }
+
+  .fondo_home{
+    background-size: 120%;
   }
   
 }
