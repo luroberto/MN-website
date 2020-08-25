@@ -782,6 +782,7 @@ width: 100%;
   .franja_eyn{
   /* height: 2000px; */
   height: auto;
+  width: 110%;
   background-image: url(../img/grafica_separada/FONDOS_SIN_SIGNOS/FRANJA_entrevistas_y_notas_larga.jpg);
   background-size: cover;
   background-position: center 60px;
@@ -875,7 +876,8 @@ width: 100%;
 
 .blockeyn{
   margin-top:180px ;
-  margin-left: 20px;
+  margin-left: 15px;
+  width: 750px;
 }
 .blockeyn h3{
   font-family: avenir;
@@ -920,9 +922,13 @@ width: 100%;
     background-position: center 0px;
     background-size: cover; 
   }
+  .franja_eyn{
+    width: 200%;
+  }
   .franja_traducciones{
     background-position: center 60px;
   }
+ 
 }
 
 @media screen and (max-width: 319px){
@@ -960,6 +966,9 @@ width: 100%;
     margin-left:  0px;
   }
 
+  .franja_eyn{
+    width: 250%;
+  }
   .fondo_home{
     background-size: 120%;
   }
