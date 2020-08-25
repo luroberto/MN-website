@@ -927,6 +927,13 @@ width: 100%;
 @media screen and (max-width: 320px){
 
   /* FLEX DE LOS CONTENEDORES DE LA SECCION LIBROS */
+  
+  .fondo_home{
+    background-image: url(../img/home/HOME_V01.png);
+    background-position: center 0px;
+    background-size: cover;
+    
+  }
 
   .block{
     /* background-color: red; */
@@ -956,10 +963,5 @@ width: 100%;
     margin-top: 200px;
     margin-left:  0px;
   }
-  .fondo_home{
-    background-image: url(../img/home/HOME_V01.png);
-    background-position: center 0px;
-    background-size: cover;
-    
-  }
+  
 }
