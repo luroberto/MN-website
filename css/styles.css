@@ -926,7 +926,7 @@ width: 100%;
   }
   .blockdist{
     width: 450px;
-    margin-top: 200px;
+    margin-top: 180px;
     margin-left: 0px;
   }
   .franja_bio{
@@ -950,11 +950,11 @@ width: 100%;
   }
   .fondo_distinciones{
     background-image: url(../img/distinciones/FONDO\ DISTINCIONES.jpg);
-    background-position: center 0px;
+    background-position: 57% 0px;
     background-size: auto; 
   }
   .franja_distinciones{
-    background-image: url(../img/responsive/DISTINCIONES_FRANJA_CELU_MAS_CAL_V05.png);
+    background-image: url(../img/responsive/DISTINCIONES_FRANJA_CELU_MAS_CAL_V06.png);
     background-position: center 100px;
     background-size: cover; 
   }
