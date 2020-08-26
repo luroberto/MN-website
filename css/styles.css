@@ -16,9 +16,9 @@
 
 @font-face {
   font-family: 'Avenir', 'Avenir Light';
-  src: url(../font/AvenirLTStd-Book.otf) format('truetype');
-  src: url(../font/AvenirLTStd-Medium.otf) format('truetype');
-  src: url(../font/AvenirLTStd-Roman.otf) format('truetype');
+  src: url(../font/AvenirLTStd-Book.otf) format('truetype'), url(../font/AvenirLTStd-Book.otf) format('woff'), url(../font/AvenirLTStd-Book.otf) format('svg'), url(../font/AvenirLTStd-Book.otf) format('embedded-opentype');
+  src: url(../font/AvenirLTStd-Medium.otf) format('truetype'), url(../font/AvenirLTStd-Medium.otf) format('woff'), url(../font/AvenirLTStd-Medium.otf) format('svg'), url(../font/AvenirLTStd-Medium.otf) format('embedded-opentype');
+  src: url(../font/AvenirLTStd-Roman.otf) format('truetype'), url(../font/AvenirLTStd-Roman.otf) format('woff'), url(../font/AvenirLTStd-Roman.otf) format('svg'), url(../font/AvenirLTStd-Roman.otf) format('embedded-opentype');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -529,7 +529,7 @@ ol, ul {
 }
 
 .descbio{
-  font-family: avenir light;
+  font-family: 'Avenir Light';
   font-size: 14px;
   font-weight: bold;
   text-align: justify;
@@ -926,7 +926,7 @@ width: 100%;
   }
   .blockdist{
     width: 450px;
-    margin-top: 120px;
+    margin-top: 200px;
     margin-left: 0px;
   }
   .franja_bio{
@@ -949,13 +949,13 @@ width: 100%;
     background-size: cover; 
   }
   .fondo_distinciones{
-    background-image: url(../img/responsive/DISTINCIONES_BARRA_CELU_ALTA_V04.png);
+    background-image: url(../img/distinciones/FONDO\ DISTINCIONES.jpg);
     background-position: center 0px;
     background-size: auto; 
   }
   .franja_distinciones{
     background-image: url(../img/responsive/DISTINCIONES_FRANJA_CELU_MAS_CAL_V05.png);
-    background-position: center 80px;
+    background-position: center 100px;
     background-size: cover; 
   }
   .franja_contacto{
