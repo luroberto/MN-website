@@ -917,9 +917,29 @@ width: 100%;
     margin-top: 120px;
     margin-left: 0px;
   }
-  .fondo_home{
-    background-image: url(../img/home/HOME__celu_V01.png);
+  .franja_bio{
+    background-image: url(../img/responsive/BIO_V01.png);
     background-position: center 0px;
+    background-size: cover; 
+  }
+  .fondo_home{
+    background-image: url(../img/responsive/HOME_CELU_V02_copy.png);
+    background-position: center 0px;
+    background-size: cover; 
+  }
+  .fondo_distinciones{
+    background-image: url(../img/responsive/FONDO_DISTINCIONES_CELU_V01.png);
+    background-position: center 0px;
+    background-size: cover; 
+  }
+  .franja_distinciones{
+    background-image: url(../img/responsive/FRANJA_DISTINCIONES_CELU_V01.png);
+    background-position: center 80px;
+    background-size: cover; 
+  }
+  .franja_contacto{
+    background-image: url(../img/responsive/CONTACTO_CELU_V01.png);
+    background-position: center 90px;
     background-size: cover; 
   }
   .franja_eyn{
@@ -963,12 +983,10 @@ width: 100%;
     margin-top: 200px;
     margin-left:  0px;
   }
-
   .franja_eyn{
     width: 250%;
   }
   .fondo_home{
-    background-size: 120%;
-  }
-  
+    background-size: 100%;
+  } 
 }
