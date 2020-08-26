@@ -948,8 +948,13 @@ width: 100%;
   }
   .franja_contacto{
     background-image: url(../img/responsive/CONTACTO_CELU_V01.png);
-    background-position: center 90px;
+    /* background-position: center 90px; */
     background-size: cover; 
+  }
+  .blockcont{
+    width: 350px;
+    margin-top: 150px;
+    height: auto;
   }
   .franja_eyn{
     width: 200%;
