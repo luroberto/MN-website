@@ -904,7 +904,7 @@ width: 100%;
 
   .block{
     /* background-color: red; */
-    width: 400px;
+    width: 360px;
     margin-top: 170px;
     margin-left: 0px;
   }
@@ -966,6 +966,7 @@ width: 100%;
     background-image: url(../img/responsive/PROLOGOS.png);
     background-position: center 70px;
     background-size: cover; 
+    width: auto;
   }
 
   .franja_eyn{
