@@ -954,8 +954,20 @@ width: 100%;
   .blockcont{
     width: 350px;
     margin-top: 150px;
+    /* Aca hay que corregir el largo de la franja OJO! */
     height: auto;
   }
+  .fondo_prologos{
+    background-image: url(../img/responsive/PROLOGOS_FONDO_CELU_V01.png);
+    background-position: center 0px;
+    background-size: cover; 
+  }
+  .franja_prologos{
+    background-image: url(../img/responsive/PROLOGOS.png);
+    background-position: center 70px;
+    background-size: cover; 
+  }
+
   .franja_eyn{
     width: 200%;
   }
