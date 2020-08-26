@@ -937,12 +937,12 @@ width: 100%;
     background-size: cover; 
   }
   .fondo_distinciones{
-    background-image: url(../img/responsive/FONDO_DISTINCIONES_CELU_V01.png);
+    background-image: url(../img/responsive/DISTINCIONES_BARRA_CELU_V02.png);
     background-position: center 0px;
-    background-size: cover; 
+    background-size: auto; 
   }
   .franja_distinciones{
-    background-image: url(../img/responsive/FRANJA_DISTINCIONES_CELU_V01.png);
+    background-image: url(../img/responsive/DISTINCIONES_FRANJA_CELU_V02.png);
     background-position: center 80px;
     background-size: cover; 
   }
