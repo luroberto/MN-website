@@ -927,6 +927,10 @@ width: 100%;
     margin-top: 120px;
     margin-left: 5px;
   }
+  .blockbio div{
+    width: auto;
+    height: auto;
+  }
   .fondo_home{
     background-image: url(../img/responsive/HOME_CELU_V02_copy.png);
     background-position: center 0px;
