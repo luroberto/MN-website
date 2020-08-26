@@ -964,7 +964,7 @@ width: 100%;
     background-size: cover; 
   }
   .blockcont{
-    width: 350px;
+    width: 300px;
     margin-top: 150px;
     /* Aca hay que corregir el largo de la franja OJO! */
     height: auto;
