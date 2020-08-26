@@ -922,6 +922,11 @@ width: 100%;
     background-position: center 0px;
     background-size: cover; 
   }
+  .blockbio{
+    width: 430px;
+    margin-top: 120px;
+    margin-left: 5px;
+  }
   .fondo_home{
     background-image: url(../img/responsive/HOME_CELU_V02_copy.png);
     background-position: center 0px;
@@ -948,7 +953,6 @@ width: 100%;
   .franja_traducciones{
     background-position: center 60px;
   }
- 
 }
 
 @media screen and (max-width: 319px){
@@ -969,9 +973,6 @@ width: 100%;
     width: 300px;
     margin-top: 100px;
     margin-left: 0px;
-  }
-  .blockbio{
-    margin-left: 80px;
   }
   .blockcont{
     display: flex;
