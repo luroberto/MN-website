@@ -567,7 +567,6 @@ ol, ul {
 
 .blockeyn{
   display: flex;
-  display: flex;
   flex-direction: row;
   justify-content: flex-start;
   flex-wrap: wrap;
@@ -698,7 +697,7 @@ width: 100%;
   }
   .blockeyn{
   margin-top: 300px;
-  margin-left: 180px;
+  margin: auto;
   }
   .blockcont{
     margin-top: 300px;
@@ -797,7 +796,7 @@ width: 100%;
   width: 110%;
   background-image: url(../img/grafica_separada/FONDOS_SIN_SIGNOS/FRANJA_entrevistas_y_notas_larga.jpg);
   background-size: cover;
-  background-position: center 60px;
+  background-position: center 90px;
   background-repeat: no-repeat;
   }
 
@@ -888,8 +887,7 @@ width: 100%;
 
 .blockeyn{
   margin-top:180px ;
-  margin-left: 15px;
-  width: 750px;
+  width: 600px;
 }
 .blockeyn h3{
   font-family: avenir;
@@ -917,7 +915,7 @@ width: 100%;
   .block{
     /* background-color: red; */
     width: 360px;
-    margin-top: 170px;
+    margin-top: 200px;
     margin-left: 0px;
   }
   .block > div{
@@ -962,6 +960,7 @@ width: 100%;
     background-image: url(../img/responsive/CONTACTO_CELU_V01.png);
     /* background-position: center 90px; */
     background-size: cover; 
+    height: 800px;
   }
   .blockcont{
     width: 300px;
@@ -970,23 +969,57 @@ width: 100%;
     height: auto;
   }
   .fondo_prologos{
-    background-image: url(../img/responsive/PROLOGOS_FONDO_CELU_V01.png);
+    background-image: url(../img/libros/PROLOGOS/FONDOS/FONDO_CARPETA_MAPA_02.2.jpg);
     background-position: center 0px;
     background-size: cover; 
   }
   .franja_prologos{
-    background-image: url(../img/responsive/PROLOGOS.png);
-    background-position: center 70px;
+    background-image: url(../img/responsive/PROLOGOS_FRANJA_CELU_V02.png);
+    background-position: center 100px;
     background-size: cover; 
     width: auto;
   }
-
-  .franja_eyn{
-    width: 200%;
+  .franja_poesia{
+    background-image: url(../img/responsive/POESIA_FRANJA_CELU_V02.png);
+    background-position: center 100px;
+    background-size: auto; 
   }
   .franja_traducciones{
-    background-position: center 60px;
+    background-image: url(../img/responsive/TRADUCCIONES_FRANJA_CELU_V02.png);
+    background-position: center 80px;
+    background-size: auto; 
+    width: auto;
   }
+  .franja_novelas{
+    background-image: url(../img/responsive/NOVELAS_FRANJA_CELU_V02.png);
+    background-position: center 70px;
+    background-size: auto; 
+  }
+  .franja_objetos{
+    background-image: url(../img/responsive/LIBROS_OBJETOS_FRANJA_CELU_V02.png);
+    background-position: center 80px;
+    background-size: auto; 
+  }
+  .franja_antologias{
+    background-image: url(../img/responsive/ANTOLOGIAS_FRANJA_CELU_V02.png);
+    background-position: center 80px;
+    background-size: auto; 
+  }
+
+  /* SECCION ENTREVISTAS Y NOTAS */
+  .franja_eyn{
+    background-image: url(../img/responsive/ENTREVISTAS_Y_NOTAS_FRANJA_CELU_V02.png);
+    background-position: center 120px;
+    background-size: auto; 
+    width: auto;
+  }
+  
+  .fondo_eyn{
+    background-image: url(../img/eyn/FONDO\ ENTREVISTAS\ Y\ NOTAS.jpg);
+    background-position: center 0px;
+    background-size: cover; 
+  }
+
 }
 
 @media screen and (max-width: 319px){
