@@ -982,6 +982,8 @@ width: 100%;
     background-position: center 0px;
     background-size: cover; 
   }
+
+/* DISTINCIONES */
   .fondo_distinciones{
     background-image: url(../img/distinciones/FONDO\ DISTINCIONES.jpg);
     background-position: 56% 0px;
@@ -992,11 +994,17 @@ width: 100%;
     background-position: center 100px;
     background-size: cover; 
   }
+  /* CONTACTO */
   .franja_contacto{
     background-image: url(../img/responsive/CONTACTO_CELU_V01.png);
     /* background-position: center 90px; */
     background-size: cover; 
     height: auto;
+  }
+  .fondo_contacto{
+    background-image: url(../img/contacto/FONDO\ ENTREVISTAS\ Y\ NOTAS.jpg);
+    background-position: center 0px;
+    background-size: auto;
   }
   .blockcont{
     width: 300px;
@@ -1004,6 +1012,7 @@ width: 100%;
     /* Aca hay que corregir el largo de la franja OJO! */
     height: auto;
   }
+  /* PROLOGOS */
   .fondo_prologos{
     background-image: url(../img/libros/PROLOGOS/FONDOS/FONDO_CARPETA_MAPA_02.2.jpg);
     background-position: center 0px;
@@ -1015,48 +1024,86 @@ width: 100%;
     background-size: cover; 
     width: auto;
   }
+  /* POESIA */
   .franja_poesia{
     background-image: url(../img/responsive/POESIA_FRANJA_CELU_V02.png);
     background-position: center 100px;
     background-size: auto; 
   }
+  .fondo_poesia{
+    background-image: url(../img/libros/POESIA/FONDO/FONDO_POESIA.jpg);
+    background-position: center 0px;
+    background-size: auto;
+  }
+  /* TRADUCCIONES */
   .franja_traducciones{
     background-image: url(../img/responsive/TRADUCCIONES_FRANJA_CELU_V02.png);
     background-position: center 80px;
     background-size: auto; 
     width: auto;
   }
+  .fondo_traducciones{
+    background-image: url(../img/libros/TRADUCCIONES/FONDO/FONDO\ TRADUCCIONES.jpg);
+    background-position: 48% -30px;
+    background-size: auto;
+  }
+  /* NOVELAS */
   .franja_novelas{
     background-image: url(../img/responsive/NOVELAS_FRANJA_CELU_V02.png);
     background-position: center 70px;
     background-size: auto; 
   }
+  .fondo_novelas{
+    background-image: url(../img/libros/NOVELAS/FONDO/FONDO\ NOVELAS.jpg);
+    background-position: center 0px;
+    background-size: auto;
+  }
+  /* ENSAYOS */
+  .fondo_ensayos{
+    background-image: url(../img/libros/ENSAYOS/FONDOS/FONDO\ ENSAYOS.jpg);
+    background-position: center -50px;
+    background-size: auto;
+  }
+  .franja_ensayos{
+    background-image: url(../img/responsive/ENSAYOS_FRANJA_CELU_V02.png);
+    background-position: center 90px;
+    background-size: auto;
+  }
+  /* OBJETOS */
   .franja_objetos{
     background-image: url(../img/responsive/LIBROS_OBJETOS_FRANJA_CELU_V02.png);
     background-position: center 80px;
     background-size: auto; 
   }
+  .fondo_objetos{
+    background-image: url(../img/libros/OBJETOS/FONDOS/FONDO_OBJETOS.jpg);
+    background-position: center 0px;
+    background-size: auto;
+  }
+  /* ANTOLOGIAS */
   .franja_antologias{
     background-image: url(../img/responsive/ANTOLOGIAS_FRANJA_CELU_V02.png);
     background-position: center 80px;
     background-size: auto; 
   }
+  .fondo_antologias{
+    background-image: url(../img/libros/ANTOLOGIAS/FONDO/FONDO_ANTOLOGIAS.jpg);
+    background-position: center -40px;
+    background-size: auto;
+  }
 
-  /* SECCION ENTREVISTAS Y NOTAS */
+  /* ENTREVISTAS Y NOTAS */
   .franja_eyn{
     background-image: url(../img/responsive/ENTREVISTAS_Y_NOTAS_FRANJA_CELU_V02.png);
     background-position: center 110px;
     background-size: cover; 
+    width: auto;
   }
-  
   .fondo_eyn{
-    background-image: url(../img/responsive/DISTINCIONES\ BARRA_CELU_ALTA_V04.png);
+    background-image: url(../img/eyn/FONDO\ ENTREVISTAS\ Y\ NOTAS.jpg);
     background-position: center 0px;
-    background-size: contain; 
+    background-size: auto; 
   }
-
-  /* A VER SI ARREGLAMOS ESTA MIERDA */
-
   .blockentrevistas{
     display: flex;
     justify-content: center;
@@ -1064,7 +1111,7 @@ width: 100%;
     padding-top: 200px;
     padding-left: 1em;
     padding-right: 1em;
-    width: 320px;
+    width: 280px;
     word-break: break-word;
   }
 }
