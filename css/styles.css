@@ -825,6 +825,17 @@ width: 100%;
   background-repeat: no-repeat;
   }
 
+  .blockentrevistas{
+    display: flex;
+    justify-content: center;
+    text-align: left;
+    padding-top: 200px;
+    padding-left: 1em;
+    padding-right: 1em;
+    width: 480px;
+    word-break: break-word;
+  }
+
   .franja_ensayos{
     /* height: 4000px; */
     min-height: 7000px;
@@ -1035,8 +1046,7 @@ width: 100%;
   .franja_eyn{
     background-image: url(../img/responsive/ENTREVISTAS_Y_NOTAS_FRANJA_CELU_V02.png);
     background-position: center 120px;
-    background-size: auto; 
-    width: auto;
+    background-size: cover; 
   }
   
   .fondo_eyn{
