@@ -565,7 +565,7 @@ ol, ul {
 
 /* CONTENIDO ENTREVISTAS Y NOTAS */
 
-.blockeyn{
+/* .blockeyn{
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
@@ -586,12 +586,10 @@ ol, ul {
 }
 .blockeyn #small{
   width: 40%;
-  /* border: 1px solid red; */
   align-self: flex-start;
 }
 .blockeyn #small2{
   width: 70%;
-  /* border: 1px solid red; */
   align-self: flex-start;
 }
 .blockeyn h3{
@@ -608,7 +606,34 @@ ol, ul {
   color: #008AFC;
   font-style: italic;
 
+} */
+
+.blockentrevistas{
+  display: flex;
+  justify-content: center;
+  text-align: left;
+  padding-top: 300px;
+  padding-left: 8em;
+  padding-right: 2em;
+  width: 600px;
+  word-break: break-word;
 }
+.blockentrevistas h3{
+  font-family: 'Avenir';
+  font-size: 2em;
+  margin-bottom: 9px;
+}
+.blockentrevistas a{
+  font-family: 'Avenir Light';
+  font-size: 1em;
+  font-style: italic;
+  font-weight: bold;
+  line-height: 20px;
+  color: #008AFC;
+  
+}
+
+
 
 
 /* SECCION CONTACTO */
@@ -960,7 +985,7 @@ width: 100%;
     background-image: url(../img/responsive/CONTACTO_CELU_V01.png);
     /* background-position: center 90px; */
     background-size: cover; 
-    height: 800px;
+    height: auto;
   }
   .blockcont{
     width: 300px;
@@ -1015,11 +1040,23 @@ width: 100%;
   }
   
   .fondo_eyn{
-    background-image: url(../img/eyn/FONDO\ ENTREVISTAS\ Y\ NOTAS.jpg);
+    background-image: url(../img/responsive/DISTINCIONES\ BARRA_CELU_ALTA_V04.png);
     background-position: center 0px;
-    background-size: cover; 
+    background-size: auto; 
   }
 
+  /* A VER SI ARREGLAMOS ESTA MIERDA */
+
+  .blockentrevistas{
+    display: flex;
+    justify-content: center;
+    text-align: left;
+    padding-top: 200px;
+    padding-left: 1em;
+    padding-right: 1em;
+    width: 380px;
+    word-break: break-word;
+  }
 }
 
 @media screen and (max-width: 319px){
@@ -1052,7 +1089,7 @@ width: 100%;
     margin-left:  0px;
   }
   .franja_eyn{
-    width: 250%;
+    background-size: 100%;
   }
   .fondo_home{
     background-size: 100%;
