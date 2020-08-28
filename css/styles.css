@@ -1045,7 +1045,7 @@ width: 100%;
   /* SECCION ENTREVISTAS Y NOTAS */
   .franja_eyn{
     background-image: url(../img/responsive/ENTREVISTAS_Y_NOTAS_FRANJA_CELU_V02.png);
-    background-position: center 120px;
+    background-position: center 110px;
     background-size: cover; 
   }
   
@@ -1064,7 +1064,7 @@ width: 100%;
     padding-top: 200px;
     padding-left: 1em;
     padding-right: 1em;
-    width: 380px;
+    width: 320px;
     word-break: break-word;
   }
 }
