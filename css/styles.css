@@ -1052,7 +1052,7 @@ width: 100%;
   .fondo_eyn{
     background-image: url(../img/responsive/DISTINCIONES\ BARRA_CELU_ALTA_V04.png);
     background-position: center 0px;
-    background-size: auto; 
+    background-size: contain; 
   }
 
   /* A VER SI ARREGLAMOS ESTA MIERDA */
