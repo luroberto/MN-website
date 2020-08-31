@@ -996,10 +996,10 @@ width: 100%;
   }
   /* CONTACTO */
   .franja_contacto{
-    background-image: url(../img/responsive/CONTACTO_CELU_V01.png);
+    background-image: url(../img/responsive/CONTACTO_FRANJA_CELU_V03.png);
     /* background-position: center 90px; */
     background-size: cover; 
-    height: auto;
+    height: 860px;
   }
   .fondo_contacto{
     background-image: url(../img/contacto/FONDO\ ENTREVISTAS\ Y\ NOTAS.jpg);
@@ -1094,9 +1094,9 @@ width: 100%;
 
   /* ENTREVISTAS Y NOTAS */
   .franja_eyn{
-    background-image: url(../img/responsive/ENTREVISTAS_Y_NOTAS_FRANJA_CELU_V02.png);
+    background-image: url(../img/responsive/ENTREVISTAS_Y_NOTAS_FRANJA_CELU_V03.png);
     background-position: center 110px;
-    background-size: cover; 
+    background-size: auto; 
     width: auto;
   }
   .fondo_eyn{
