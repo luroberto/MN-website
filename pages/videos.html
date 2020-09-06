@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <title>marianegroni</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Fjalla+One|Source+Sans+Pro" rel="stylesheet">
+    <link rel="stylesheet" href="../css/styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  </head>
+
+  <body class="fondo_videos">
+    <i class="icon-menu burger-button" id="burger-menu"></i>
+    <header class="header">
+      <div class="container">
+        <nav class="menu" is-active>
+          <ol>
+            <li><a href="../index.html"class="current">home</a></li>
+            <li><a href="../pages/bio.html">bio</a></li>
+            <li><a href="#">libros</a>
+                <ul>
+                    <li><a href="../pages/pbooks/poesia.html">poesía</a></li>
+                    <li><a href="../pages/pbooks/novelas.html">novelas</a></li>
+                    <li><a href="../pages/pbooks/ensayos.html">ensayos</a></li>
+                    <li><a href="../pages/pbooks/objetos.html">libros/objetos</a></li>
+                    <li><a href="../pages/pbooks/traducciones.html">traducciones</a></li>
+                    <li><a href="../pages/pbooks/antologias.html">antologías</a></li>
+                    <li><a href="../pages/pbooks/prologos.html">prólogos</a></li>
+                </ul>
+            </li>
+            <li><a href="./distinciones.html">distinciones</a></li>
+            <li><a href="./entrevistasynotas.html">entrevistas y notas</a></li>
+            <li><a href="./videos.html">videos</a></li>
+            <li><a href="./contacto.html">contacto</a></li>
+            <li><a href="https://www.facebook.com/maria.negroni.925" target="_blank">
+                <i class="fa fa-facebook"></i>
+               </a></li>
+            <li><a href="https://www.instagram.com/marianegroni1" target="_blank">
+                <i class="fa fa-instagram"></i>
+               </a></li>
+            <li><a href="https://twitter.com/marianegroni2" target="_blank">
+                <i class="fa fa-twitter"></i>
+               </a></li>
+
+          </ol>
+        </nav>
+      </div>
+    </header>
+
+    <section class= "franja_videos">
+
+      <div  class="blockvideo" >
+        <div>
+          <ul style="list-style-type:disc">
+            <h3 class="videoH3">Cartas Extraordinarias</h3>
+
+            <iframe width="640" height="360" src="https://www.youtube.com/embed/NJcv_hARgk8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+            <h3 class="videoH3">Exilium</h3>
+
+            <iframe width="640" height="360" src="https://www.youtube.com/embed/2IXppnfgOGs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+            <h3 class="videoH3">Islandia</h3>
+
+            <iframe src="https://player.vimeo.com/video/371638584" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+
+          </ul>
+        </div>
+      </div>
+
+    </section>
+    <script>
+      const menu = document.querySelector('.menu');
+      console.log(menu);
+      const burgerButton = document.querySelector('#burger-menu');
+      console.log (burgerButton);
+
+      burgerButton.addEventListener ('click', showHide);
+
+      function showHide(){
+          if (menu.classList.contains('is-active')){
+            menu.classList.remove('is-active');
+          } else {
+            menu.classList.add('is-active');
+          }
+      }
+     </script>
+  </body>
+</html>

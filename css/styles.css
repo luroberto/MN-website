@@ -249,6 +249,13 @@ ol, ul {
   background-attachment: fixed;
   background-size: cover;
 }
+.fondo_videos{
+  background-image: url(../img/FRANJA_VIDEO/BARRA_VIDEO_V01.png);
+  background-position: center 75px;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: auto;
+}
 
 /* FRANJAS */
 
@@ -283,6 +290,19 @@ ol, ul {
   display: flex;
  
  }
+
+ .franja_videos{
+  height: auto;
+  background-image: url(../img/FRANJA_VIDEO/FRANJA_VIDEOS_V01.png);
+  background-size: 100%;
+  background-position: center 180px;
+  background-repeat: no-repeat;
+  justify-content: center;
+  display: flex;
+ 
+ }
+
+ 
 
  /* franjas books */
 
@@ -561,6 +581,32 @@ ol, ul {
   font-size: 14px;
   line-height: 25px;
 
+}
+
+/* BLOCK VIDEO */
+
+.blockvideo{
+  display: flex;
+  justify-content: center;
+  margin-top: 270px;
+  margin-left: 30px;
+  width: 700px;  
+}
+.blockvideo div{
+  display: flex;
+  margin: 30px;
+  width: auto;
+}
+
+.videoH3{
+  font-family: 'Avenir';
+  font-size: 2em;
+  margin-bottom: 9px;
+ }
+
+ iframe{
+  width: 640;
+  height: 360;
 }
 
 /* CONTENIDO ENTREVISTAS Y NOTAS */
@@ -1115,6 +1161,12 @@ width: 100%;
     word-break: break-word;
   }
 }
+
+
+
+/* SECCION VIDEOS */
+
+
 
 @media screen and (max-width: 319px){
 
