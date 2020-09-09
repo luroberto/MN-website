@@ -250,11 +250,11 @@ ol, ul {
   background-size: cover;
 }
 .fondo_videos{
-  background-image: url(../img/FRANJA_VIDEO/BARRA_VIDEO_V01.png);
-  background-position: center 75px;
+  background-image: url(../img/FRANJA_VIDEO/BARRA_VIDEO_V02.png);
+  background-position: center 25px;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-size: auto;
+  background-size:contain;
 }
 
 /* FRANJAS */
@@ -295,7 +295,7 @@ ol, ul {
   height: auto;
   background-image: url(../img/FRANJA_VIDEO/FRANJA_VIDEOS_V01.png);
   background-size: 100%;
-  background-position: center 180px;
+  background-position: center 145px;
   background-repeat: no-repeat;
   justify-content: center;
   display: flex;
@@ -604,55 +604,7 @@ ol, ul {
   margin-bottom: 9px;
  }
 
- iframe{
-  width: 640;
-  height: 360;
-}
 
-/* CONTENIDO ENTREVISTAS Y NOTAS */
-
-/* .blockeyn{
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
-  flex-wrap: wrap;
-  margin-top: 350px;
-  margin-left: 150px;
-  width: 720px;
-  align-content: flex-start;
-}
-.blockeyn div{
-  display: flex;
-  justify-content: flex-start;
-  flex-wrap: wrap;
-  width: 80%;
-  align-items: center;
-  margin: 30px;
-  margin-top:0px ;
-}
-.blockeyn #small{
-  width: 40%;
-  align-self: flex-start;
-}
-.blockeyn #small2{
-  width: 70%;
-  align-self: flex-start;
-}
-.blockeyn h3{
-  font-family: avenir;
-  font-size: 32px;
-  margin-top: 0;
-  margin-bottom: 0px;
-}
-.blockeyn a{
-  font-size:15px;
-  font-weight: bold;
-  font-family:avenir light;
-  line-height: 20px;
-  color: #008AFC;
-  font-style: italic;
-
-} */
 
 .blockentrevistas{
   display: flex;
@@ -786,6 +738,10 @@ width: 100%;
     background-position: center 160px;
 }
 
+.franja_videos{
+  background-position: center 120px;
+}
+
 }
 
 @media screen and (max-width: 767px){
@@ -880,6 +836,18 @@ width: 100%;
     padding-right: 1em;
     width: 480px;
     word-break: break-word;
+  }
+
+  .fondo_videos{
+  height:  auto;
+  background-image: url(../img/FRANJA_VIDEO/BARRA_VIDEO_V01.png);
+  background-size: auto;
+  background-position: center 0px;
+  background-repeat: no-repeat;
+  }
+
+  .franja_videos{
+    background-position: center 90px;
   }
 
   .franja_ensayos{
@@ -1160,12 +1128,32 @@ width: 100%;
     width: 280px;
     word-break: break-word;
   }
+  /* SECCION VIDEOS */
+
+  iframe{
+    width: 340px;
+    height: auto;
+  }
+
+  .franja_videos{
+    background-image: url(../img/FRANJA_VIDEO/VIDEOS_FRANJA_CELU_V01.png);
+    background-position: center 80px;
+    background-size: auto; 
+  }
+
+  .blockvideo{
+    display: flex;
+    justify-content: center;
+    margin-top: 130px;
+    margin-left: 0px;
+    width: 700px;
+  }
+
+  .videoH3{
+    margin-top: 2px;
+  }
+
 }
-
-
-
-/* SECCION VIDEOS */
-
 
 
 @media screen and (max-width: 319px){
