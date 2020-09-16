@@ -1013,7 +1013,7 @@ width: 100%;
     background-image: url(../img/responsive/CONTACTO_FRANJA_CELU_V03.png);
     /* background-position: center 90px; */
     background-size: cover; 
-    height: 860px;
+    /* height: 860px; */
   }
   .fondo_contacto{
     background-image: url(../img/contacto/FONDO\ ENTREVISTAS\ Y\ NOTAS.jpg);
