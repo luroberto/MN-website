@@ -1,5 +1,5 @@
 
-/* icodo de menu  */
+/* ICONO DE MENU */
 @font-face {
   font-family: 'icomoon';
   src:  url('../fonts/icomoon.eot?tc7q2y');
@@ -44,22 +44,14 @@
 }
 
 
-
+/* Sección del cuerpo y menu */
 
 body {
   font-family: 'Avenir', 'Avenir Light';
   margin: 0;
   background-color: white;
 }
-
 .header {
-  /* background-color: white;
-  color: black;
-  display: flex;
-  height: 70px;
-  align-items: center;
-  font-size: 15px; */
-
   position: fixed;
 	top:0;
 	width:100%;
@@ -67,29 +59,22 @@ body {
 	z-index:1;
   background-color:white;
 }
-
 ol, ul {
   margin: 0;
   padding: 0;
   list-style: none;
 }
-
 .header a {
   color: black;
   text-decoration: none;
 }
-/* .menu {
-  height: inherit; 
-} */
-
 .menu {
   height: inherit; 
   width: 1000px;
 }
 .header ol {
   display: flex;
-  height: inherit;
-  
+  height: inherit; 
 }
 .header ol li {
   height: inherit;
@@ -105,13 +90,11 @@ ol, ul {
   height: inherit;
   padding: 0 15px;
   font-size: 14px;
-
 }
 .header ol ul {
   display: none;
   position: absolute;
   height: 30px;
-  
 }
 
 /* menu desplegable  */
@@ -259,7 +242,6 @@ ol, ul {
 
 /* FRANJAS */
 
-
 .franja_distinciones{
   height: auto;
   background-image: url(../img/distinciones/FRANJA\ DISTINCIONES_V02.jpg);
@@ -290,7 +272,6 @@ ol, ul {
   display: flex;
  
  }
-
  .franja_videos{
   height: auto;
   background-image: url(../img/FRANJA_VIDEO/FRANJA_VIDEOS_con_signos_V03.png);
@@ -301,8 +282,6 @@ ol, ul {
   display: flex;
  
  }
-
- 
 
  /* franjas books */
 
@@ -380,23 +359,18 @@ ol, ul {
 
 /* SECCION LIBROS  */
 
-
  .block {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  /* background-color: DodgerBlue; */
   flex-wrap: wrap;
   margin-top: 370px;
   margin-left: 90px;
   width: 900px;
   align-content: flex-start;
 }
-
 .block > div {
   display: flex;
-  /* background-color: #f1f1f1; */
-  /* border: 1px solid red; */
   margin: 10px;
   margin-top: 0px;
   width: 900px;
@@ -410,14 +384,12 @@ ol, ul {
   display: flex;
   justify-content: flex-start;
   flex-wrap: wrap;
-  /* border: 1px solid black; */
   width: 50%;
   align-items: center;
   margin: 30px;
   margin-top:0px ;
   align-items: flex-start;
 }
-
 .tapa{
   display: flex;
   flex-basis: 200px;
@@ -430,13 +402,9 @@ ol, ul {
   font-family: Avenir;
   color: rgba(0,0,0,.7)
 }
-
 #image{
   margin-top: 7px;
-  /* width: 210px;
-  height: 322px; */
 }
-
 .desc{
   display: flex;
   align-self: baseline;
@@ -458,7 +426,6 @@ ol, ul {
   text-align: left;
   margin-left: 2px;
 }
-
 .titlebook{
   font-family: Avenir;
   font-size: 33px;
@@ -468,7 +435,6 @@ ol, ul {
   
 }
 .description{
-  /* font-family: Avenir Light; */
   font-family: Avenir;
   line-height: 1.2em;
   font-size: 14px;
@@ -486,13 +452,11 @@ ol, ul {
   letter-spacing: 1px;
   margin-top: 15px;
 }
-
 .frj1{
   width: 80%;
   align-self: center;
   
 }
-
 .frj2{
   width: 50px;
   align-self: center;
@@ -521,7 +485,6 @@ ol, ul {
   width: 800px;
   align-content: flex-start;
 }
-
 .blockbio div{
   display: flex;
   justify-content: space-between;
@@ -531,7 +494,6 @@ ol, ul {
   height: max-content;
   position: relative;
 }
-
 .blockbio div div{
   display: flex;
   justify-content: flex-start;
@@ -542,12 +504,10 @@ ol, ul {
   margin: 10px;
   margin-top:0px ;
 }
-
 .fotobio{
   display: flex;
   flex-basis: 200px;
 }
-
 .descbio{
   font-family: 'Avenir Light';
   font-size: 14px;
@@ -558,7 +518,6 @@ ol, ul {
   margin-top: 0;
   margin-bottom: 0;
 }
-
 
 /* CONTENIDO DISTINCIONES */
 
@@ -583,7 +542,7 @@ ol, ul {
 
 }
 
-/* BLOCK VIDEO */
+/* CONTENIDO VIDEO */
 
 .blockvideo{
   display: flex;
@@ -597,14 +556,13 @@ ol, ul {
   margin: 30px;
   width: auto;
 }
-
 .videoH3{
   font-family: 'Avenir';
   font-size: 2em;
   margin-bottom: 9px;
  }
 
-
+/* CONTENIDO ENTREVISTAS Y NOTAS */
 
 .blockentrevistas{
   display: flex;
@@ -631,10 +589,7 @@ ol, ul {
   
 }
 
-
-
-
-/* SECCION CONTACTO */
+/* CONTENIDO CONTACTO */
 
 .blockcont{
   display: flex;
@@ -658,10 +613,9 @@ input[type='text'], textarea{
   outline: none;
   background: none;
   border: none;
-border-bottom: solid 2px black;
+  border-bottom: solid 2px black;
   color: black;
 }
-
 textarea {
 line-height: 150%;
 height: 150px;
@@ -762,11 +716,9 @@ width: 100%;
   .header ol li {
     background-color:rgba(255,255,255,.0001);
   }
-
   .header ol ul {
     width: 160px;
   }
-
   .burger-button{
     display: block;
   }
@@ -786,11 +738,9 @@ width: 100%;
   .menu.is-active{
     left:0;
   }
-
   .fondo_home, .fondo_distinciones, .fondo_contacto, .fondo_eyn, .fondo_antologias, .fondo_ensayos, .fondo_novelas, .fondo_objetos, .fondo_poesia, .fondo_prologos, .fondo_traducciones{
     background-position: center 0px;
   }
-
   .franja_bio{
     background-position: 30%;
     background-image: url(../img/FRANJAS_NUEVAS_CON_SIGNOS_CORRIDOS/BIO_02_SIN\ SIGNOS.png);
@@ -800,8 +750,6 @@ width: 100%;
     
   }
   .franja_distinciones{
-  /* height: 3000px; */
-  /* background-image: url(../img/distinciones/FRANJA\ DISTINCIONES_V02.jpg); */
   height: auto;
   background-image: url(../img/grafica_separada/FONDOS_SIN_SIGNOS/FRANJA\ DISTINCIONES_corta.png);
   background-size: cover;
@@ -851,11 +799,9 @@ width: 100%;
   }
 
   .franja_ensayos{
-    /* height: 4000px; */
     min-height: 7000px;
     background-size: cover;
     background-position: center 90px;
-    /* background-repeat: no-repeat;  */
   }
 .franja_prologos{
   height: auto;
@@ -882,7 +828,6 @@ width: 100%;
     background-position: center 70px;
 }
  .franja_objetos{
-    /* height: 2000px; */
     height: auto;
     background-image: url(../img/grafica_separada/FONDOS_SIN_SIGNOS/LIBROS_OBJETOS.jpg);
     background-size: cover;
@@ -906,7 +851,6 @@ width: 100%;
   flex-wrap: wrap-reverse;
   justify-content: center;
 }
-
 .block div div{
   justify-content: flex-start;
 }
@@ -915,7 +859,6 @@ width: 100%;
   width: 10%;
   align-self: auto;
 }
-
 .blockbio{
   width: 500px;
   margin-top: 200px;
@@ -928,13 +871,11 @@ width: 100%;
 .blockbio div div {
   justify-content: center;
 }
-
 .blockdist{
   width: 500px;
   margin-top: 150px;
   margin-left: 10px;
 }
-
 .blockeyn{
   margin-top:180px ;
   width: 600px;
@@ -960,7 +901,7 @@ width: 100%;
 
 @media screen and (max-width: 479px){
 
-  /* FLEX DE LOS CONTENEDORES DE LA SECCION LIBROS */
+  /* FLEX DE LOS CONTENEDORES DE LIBROS */
 
   .block{
     /* background-color: red; */
@@ -1011,9 +952,7 @@ width: 100%;
   /* CONTACTO */
   .franja_contacto{
     background-image: url(../img/responsive/CONTACTO_FRANJA_CELU_V03.png);
-    /* background-position: center 90px; */
     background-size: cover; 
-    /* height: 860px; */
   }
   .fondo_contacto{
     background-image: url(../img/contacto/FONDO\ ENTREVISTAS\ Y\ NOTAS.jpg);
@@ -1154,7 +1093,6 @@ width: 100%;
   }
 
 }
-
 
 @media screen and (max-width: 319px){
 
