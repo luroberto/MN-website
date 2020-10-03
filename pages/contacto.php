@@ -31,7 +31,7 @@
             <li><a href="./distinciones.html">distinciones</a></li>
             <li><a href="./entrevistasynotas.html">entrevistas y notas</a></li>
             <li><a href="./videos.html">videos</a></li>
-            <li><a href="./contacto.html">contacto</a></li>
+            <li><a href="./contacto.php">contacto</a></li>
             <li><a href="https://www.facebook.com/Mar%C3%ADa-Negroni-379308822149634" target="_blank">
                 <i class="fa fa-facebook"></i>
                </a></li>
@@ -49,7 +49,7 @@
 
     <section class= "franja_contacto">
 
-      <form action="send.php" method="POST">
+      <form method="POST">
         <div class="blockcont" >
 
             <div>
@@ -65,7 +65,7 @@
                 <textarea name="Mensaje" id="mensaje" placeholder="Escribe tu mensaje aquí..."  required></textarea>
             </div>
             <div>
-                <input type="submit" value="ENVIAR" id="boton">
+                <input type="submit" name="enviar" id="boton">
             </div>
      
         </div>
@@ -77,6 +77,11 @@
     </form>
 
     </section>
+<?php
+
+include ("send.php");
+
+?>
 
     <script>
       const menu = document.querySelector('.menu');
