@@ -1,6 +1,6 @@
 <?php
 if (isset ($_POST ['enviar'])){
-$destino = "mnegroni@untref.edu.ar";
+$destino = "robertoluciana95@gmail.com";
 $nombre = $_POST ["nombre"];
 $mail = $_POST ["mail"];
 $telefono = $_POST ["telefono"];
